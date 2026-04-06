@@ -14,6 +14,9 @@ import time
 from typing import Any, Callable
 
 import openai
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # ---------------------------------------------------------------------------
 # Estimated costs per 1K OUTPUT tokens (USD) — update if pricing changes
